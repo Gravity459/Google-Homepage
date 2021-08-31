@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: 10% 78% auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%; 
+    padding: 6px;
+}
+
+.link {
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    padding: 4px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.center-content img {
+    width: 400px; 
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+.for-input {
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+    width: 600px;
+    max-width: 600px;
+    height: 40px;
+    border: 1px solid #b4b4b4;
+    background: white;
+    border-radius: 20px;
+}
+
+.for-input .text-input {
+    display: flex;
+    align-self: center;
+    margin: auto;
+    padding-top: 3px;
+    width: 500px;
+    max-width: 500px;
+    height: 38px;
+    background: white;
+    font-size: 15px;
+    border: 1px solid white;
+    outline: none;
+}
+
+.for-input:hover {
+    box-shadow: 1px 1px 4px 1px #b4b4b4;  
+}
+
+.text-input:focus {
+    border: none; 
+}
+
+svg {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin: 5px 5px 5px 7px;
+}
+
+.cheez {
+    color: #b4b4b4;
+}
+
+footer {
+    display: grid; 
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #f0eeee;
+}
+
+#country {
+    border: 1px solid #cecdcd;
+    display: flex;
+    align-items: center;
+}
+
+#country p{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #6e6d6d;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+}
+
+#first {
+    display: flex;
+    margin-left: 10px;
+    width: 50%;
+}
+
+#second {
+    display: flex;
+    margin-right: 10px;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.footer-links {
+    padding: 0px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #6e6d6d;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+

@@ -6,4 +6,4 @@ This project is one of the starting projects for me and it can help any beginner
 
 I tried to make it as close to the original one as possible. No high-end CSS is copied.
 
-The live preview for the site is at: 
+The live preview for the site is at: https://gravity459.github.io/Google-Homepage/
